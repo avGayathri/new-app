@@ -6,12 +6,11 @@ const quotes = await fetchdata();
 
 export default function Quotes(){
 
-
-    const [quote,setQuote] = React.useState("")
-    // const [author,setAuthor] = React.useState("")
-
     const quotesArray = quotes
     const randomNumber =  Math.floor(Math.random() * quotesArray.length)
+
+    const [quote,setQuote] = React.useState(quotesArray[0])
+   
 
     function getQuote(){
 

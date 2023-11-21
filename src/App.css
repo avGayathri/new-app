@@ -15,7 +15,7 @@ main {
 .button {
   font-family: "Karla", sans-serif;
   border-radius: 5px;
-  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  background: linear-gradient(90.41deg, #8d581f 1.14%, #da8318 100%);
   color: white;
   display: block;
   width: 30%;
@@ -30,16 +30,25 @@ main {
 }
 
 .maincontainer {
-  height: 200px;
+  height: 236px;
   width: 50%;
-  border: 1px solid rgb(192, 236, 14);
-  background-color: rgb(240, 201, 8);
+  min-width: 40%;
+  min-height: 232px;
+  border: 1px solid rgb(228, 180, 109);
+  background-color: rgb(232, 214, 126);
   border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }
 
 h3 {
   color: beige;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  
 }
 
 h4 {
@@ -47,3 +56,6 @@ h4 {
   font-weight: normal;
   margin-top: 0%; 
 }
+
+
+
