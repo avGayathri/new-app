@@ -35,7 +35,7 @@ main {
   min-width: 40%;
   min-height: 232px;
   border: 1px solid rgb(228, 180, 109);
-  background-color: rgb(232, 214, 126);
+  background-color: rgb(215, 209, 139);
   border-radius: 10px;
   position: absolute;
   top: 50%;
@@ -45,16 +45,17 @@ main {
 }
 
 h3 {
-  color: beige;
+  color: rgb(79, 46, 4);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  
+  font-size: 24px;
 }
 
 h4 {
   text-align: center;
   font-weight: normal;
   margin-top: 0%; 
+  color: rgb(165, 89, 42);
 }
 
 
